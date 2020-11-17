@@ -1,3 +1,11 @@
+#using cg as the 00-01 base - 
+#  c = 00
+#	g = 01
+#using at as the 10-11 base
+#	a = 10
+#	t = 11
+
+
 seq = 'ATCGATTGAGCTCTAGCGGCTAACTCGAGATCGCtcgatctacgggagtggaccggagacgagtcgaagctttcttgggaactagtcttctgtt'
 print(len(seq))
 print(len(seq)/4)
