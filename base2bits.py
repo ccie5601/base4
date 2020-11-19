@@ -5,10 +5,9 @@
 #	a = 10
 #	t = 11
 
-
+# test sequence
 seq = 'ATCGATTGAGCTCTAGCGGCTAACTCGAGATCGCtcgatctacgggagtggaccggagacgagtcgaagctttcttgggaactagtcttctgtt'
 print(len(seq))
-print(len(seq)/4)
 seq = seq.lower()
 print(seq)
 seqs = [seq[i:i+4] for i in range(0, len(seq), 4)]
